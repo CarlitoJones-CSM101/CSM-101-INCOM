@@ -4,7 +4,7 @@ classrecord = {
         "StudID": "S002", "Grade": [72, 75, 59, 80, 84, 75, 85]
     },
     "Liza":{
-        "studID": "S003",
+        "StudID": "S003",
         "Grade": [90, 87, 86, 84, 83, 93, 84]
     }
 }
