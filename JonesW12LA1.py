@@ -26,10 +26,17 @@ if search_name in classrecord:
         if grade <= 60:
             intervention_status = " Candidate for intervention"
             break
-print(f"Name: {search_name}")
-print(f"ID: {student_id}")
-print(f"Grades: {grades}")
-print(f"Average Grade: {average:.2f}")
-print(f"Highest Grade: {highest_grade}")
-print(f"Lowest Grade: {lowest_grade}")
-print(f"Status: {intervention_status}")
+
+    print("\nCLASS RECORD SUMMARY")
+    print(f"Name: {search_name}")
+    print(f"ID: {student_id}")
+    print(f"Grades: {grades}")
+    print(f"Average Grade: {average:.2f}")
+    print(f"Highest Grade: {highest_grade}")
+    print(f"Lowest Grade: {lowest_grade}")
+    print(f"Status: {intervention_status}")
+
+else:
+    print("\nStudent not found.")
+
+
